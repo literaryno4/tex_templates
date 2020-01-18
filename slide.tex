@@ -1,0 +1,90 @@
+\documentclass[14pt,xcolor=dvipsnames]{beamer}
+
+%support Chinese
+%\usepackage[UTF8]{ctex}
+
+\usepackage{grffile}
+
+\usepackage{amsmath}
+%import graphics
+\usepackage{graphicx}
+
+% Specify theme
+\usetheme{Madrid}
+%\usetheme{progressbar}
+% See http://goo.gl/Wxlyy for alternative themes
+
+% Specify base color
+\usecolortheme[named=Black]{structure}
+% See http://goo.gl/p0Phn for alternative colors
+
+%remove fig lable
+\usepackage[labelformat=empty]{caption}
+
+% Specify other colors and options as required
+\setbeamercolor{alerted text}{fg=Black}
+\setbeamertemplate{items}[square]
+
+% Title and author information
+\title{Challenges in Chip Fabricating:\\
+	 Will Moore's Law Go On}
+\author{Chao Shu\\}
+
+%remove navigate bar
+\setbeamertemplate{navigation symbols}{} 
+
+%remove footor
+\setbeamertemplate{footline}{}
+
+%remove date
+\date{}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Questions}
+\centering{How old is you phone? }\\
+\centering{Do you want to change a new phone?}
+\end{frame}
+
+\begin{frame}
+\begin{columns}
+	\column{.5\textwidth}
+	\begin{figure}[h!]
+		\centering
+		%\includegraphics[height=0.5\textheight]{apple.PNG}
+		%\caption{}
+		%\label{}
+	\end{figure}
+    \pause
+	\column{.5\textwidth}
+	\begin{figure}[h!]
+		\centering
+		%\includegraphics[height=0.5\textheight]{huawei.PNG}
+		%\caption{}
+		%\label{}
+	\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[h!]
+	\centering
+	%\includegraphics[height=0.6\textheight]{channel length has been reduced .PNG}
+	\caption{Moore's Law Goes Well Before.}
+	%\label{}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Solutions to These Problems}
+\begin{itemize}[<+-| alert@+>]
+	\item FinFET
+	\item DF-FET
+	\item LGAA
+\end{itemize}
+\pause
+\end{frame}
+\end{document}
